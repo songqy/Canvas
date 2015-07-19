@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Canvas</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel ="stylesheet" type="text/css" href="style1.css">
+    </head>
+    <body>
+        <canvas id="myCanvas" width="1200" height="550">这个浏览器不支持Canvas标签</canvas><br/>
+        <button id="whiteBtn" onclick = "changecolor(1)">White</button>
+        <button id="redBtn" onclick = "changecolor(2)">Red</button>
+        <button id="orangeBtn" onclick = "changecolor(3)">Orange</button>
+        <button id="yellowBtn" onclick = "changecolor(4)">Yellow</button>
+        <button id="greenBtn" onclick = "changecolor(5)">Green</button>
+        <button id="blueBtn" onclick = "changecolor(6)">Blue</button>
+        <button id="cyanBtn" onclick = "changecolor(7)">Cyan</button>
+        <button id="purpleBtn" onclick = "changecolor(8)">Purple</button>
+        <button id="grayBtn" onclick = "changecolor(9)">Gray</button>
+        <button id="eraserBtn" onclick = "changecolor(10)">Eraser</button>
+        <button id="clearBtn" onclick = "clearCavas()">Clear</button>
+
+        <label>LineWidth</label>
+        <select onchange = "changeW(this.value)">
+          <option value = "1">1</option>
+          <option value = "2">2</option>
+          <option value = "3">3</option>
+          <option value = "4">4</option>
+          <option value = "5">5</option>
+          <option value = "6">6</option>
+          <option value = "7">7</option>
+          <option value = "8">8</option>
+          <option value = "9">9</option>
+          <option value = "10">10</option>
+          <option value = "11">11</option>
+          <option value = "12">12</option>
+          <option value = "13">13</option>
+          <option value = "14">14</option>
+          <option value = "15">15</option>
+        </select>
+    </body>
+
+    <script type="text/javascript" src = "canvasJs.js"></script>
+</html>

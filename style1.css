@@ -1,0 +1,65 @@
+button{
+  height:30px;
+  width: 80px;
+  font-size:20px;
+  font-family: Georgia;
+  font-style: oblique;
+}
+
+label{
+  font-size:16px;
+  font-family: Cursive;
+}
+
+select{
+  font-weight: bold;
+  font-family:Cursive;
+}
+
+#yellowBtn{
+    background-color: yellow;
+    color: blue;
+}
+#redBtn{
+    background-color: red;
+}
+#blueBtn{
+    background-color: blue;
+    color: yellow;
+}
+#greenBtn{
+    background-color: green;
+}
+#whiteBtn{
+    background-color: white;
+    color: black;
+}
+#blackBtn{
+    background-color: black;
+    color: white;
+}
+#orangeBtn{
+    background-color: orange;
+    color: green;
+}
+#purpleBtn{
+    background-color: purple;
+    color: yellow;
+}
+#grayBtn{
+    background-color: gray;
+    color: red;
+}
+#cyanBtn{
+    background-color: cyan;
+    color: black;
+}
+
+#eraserBtn{
+    background-color: DeepSkyBlue;
+    color: magenta;
+}
+#clearBtn{
+    background-color: MediumPurple;
+    color: yellow;
+}
